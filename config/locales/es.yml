@@ -1,10 +1,10 @@
 ---
-en:
+es:
   Dirección: Dirección
   Teléfono: Teléfono
-  hello: Hello world
+  hello: Hola mundo
   users:
-    first_name: Name
+    first_name: Nombre(s)
     form:
       Apellidos: Apellidos
       last_name: Last name

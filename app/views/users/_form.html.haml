@@ -4,12 +4,12 @@
   = f.error_notification message: f.object.errors[:base].to_sentence if f.object.errors[:base].present?
 
   .form-inputs
-    = f.input :first_name, label:'Nombre(s)'
+    = f.input :first_name, label:t('users.first_name')
     = f.input :string
-    = f.input :last_name
-    = f.input :address
-    = f.input :about_me
-    = f.input :phone
+    = f.input :last_name, label:t('.Apellidos')
+    = f.input :address, label:t('Dirección')
+    = f.input :about_me, label:t('Sobre mi')
+    = f.input :phone, label:t('Teléfono')
 
   .form-actions
     = f.button :submit
